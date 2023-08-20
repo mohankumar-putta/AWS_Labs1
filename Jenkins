@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'Windows-Slave-USE2-AWS'}
+    agent any 
     stages {
         stage('Submit Stack') {
             steps {
